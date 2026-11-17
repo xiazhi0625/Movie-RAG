@@ -1,0 +1,43 @@
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Jupyter Notebook =====
+# 旧 Notebook 中可能包含 API Key
+*.ipynb
+.ipynb_checkpoints/
+
+# ===== API Key 和环境变量 =====
+.env
+.env.*
+!.env.example
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+.conda/
+
+# ===== 数据文件 =====
+# 原始数据和中间产物暂不提交
+*.csv
+*.parquet
+*.npy
+
+# ===== ChromaDB 数据库 =====
+# 数据库压缩包单独上传 GitHub Releases
+chroma_movie_db/
+chroma_movie_db_v2/
+*.tar.gz
+
+# ===== 模型文件 =====
+*.safetensors
+*.bin
+
+# ===== 备份和临时文件 =====
+*_backup.py
+*.log
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
