@@ -408,3 +408,23 @@ ss -ltnp | grep ':7860'
 **关闭程序**
 
 在运行 Gradio 的终端按 Ctrl+C，即可停止服务。
+
+## 5. 数据来源与使用许可
+
+本项目使用 GroupLens Research 发布的 MovieLens latest-small 数据集。
+
+- 原始数据集：MovieLens ml-latest-small
+- 原始数据包含 9742 部电影
+- 本项目处理后的 ChromaDB 集合包含 9724 条记录
+- 数据用于学习、实验和非商业演示
+
+数据集及其转换版本的再分发须遵守原数据集相同的许可条件，包括注明来源、不得暗示 GroupLens 对本项目的认可，以及未经许可不得用于商业用途。
+
+官方数据集与许可说明：
+https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html
+
+参考文献：
+Harper, F. M., & Konstan, J. A. (2015).
+The MovieLens Datasets: History and Context.
+ACM Transactions on Interactive Intelligent Systems, 5(4).
+https://doi.org/10.1145/2827872
