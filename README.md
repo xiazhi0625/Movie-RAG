@@ -117,7 +117,7 @@ Movie-RAG/
 首先，克隆项目仓库：
 
 ```bash
-git clone <项目GitHub地址>
+git clone https://github.com/xiazhi0625/Movie-RAG.git
 cd Movie-RAG
 ```
 
@@ -164,7 +164,7 @@ python -c "import gradio, chromadb, sentence_transformers, openai, pandas; print
 
 `chroma_movie_db_v2.tar.gz`
 
-数据库下载地址：DATABASE_RELEASE_URL_HERE
+数据库下载地址：https://github.com/xiazhi0625/Movie-RAG/releases/tag/v1.0.0
 
 注意：上述地址将在正式发布 GitHub Release 后替换。
 
